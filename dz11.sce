@@ -34,7 +34,7 @@ for i = 1:length(c_real)             //перебор точек
             if b<0
                 b = 256+b
             end
-            b = b/256               //строим по точкам
+            b = b/256
             plot(,x,y,'colo',[r,g,b],'linest','none','marker','.','markersize',2)
             x = [0]
             y = [0]
